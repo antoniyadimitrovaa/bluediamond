@@ -1,3 +1,4 @@
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
 body {
   padding: 0px;
   margin: 0px;
@@ -77,5 +78,38 @@ header {
 .container {
   margin-top: -317px;
   display: flex;
+  padding: 3em;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.ekstri {
+display: block;
+}
+
+
+.frontgalery {
+  display: flex;
+}
+
+.snimki{
+  width: 3em;
+  width: 30em;
+  height: 15em;
+ border: 0.5em solid rgb(235, 201, 52);
+}
+.stars{
+  padding-left: 5em;
+  padding-bottom: 1em;
+  color: black;
+}
+.frontgalery {
+  display: flex;
   justify-content: space-around;
+}
+.listhotel{
+  padding-left: 9em;
+}
+.hotoffer {
+  padding-left: 9em;
 }
