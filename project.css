@@ -113,3 +113,30 @@ display: block;
 .hotoffer {
   padding-left: 9em;
 }
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.uslugi{
+  display: block;
+  list-style: none;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.titleuslugi{
+    font-size: 1.2em;
+    margin-left: 4em;
+    margin-bottom: 1em;
+
+}
+.mreji{
+  font-size:1.2em;
+}
+.contacts {
+  display: block;
+    list-style-type: none;
+    line-height: 1.5;
+    font-size: 1.2em;
+    margin-top: 4em;
+
+}
