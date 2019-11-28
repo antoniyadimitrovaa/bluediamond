@@ -168,3 +168,29 @@ display: block;
     color: darkcyan;
 }
     
+.pichotel {
+  width: 28em;
+  height: 15em;
+  border: 3px solid black;
+  padding: 0.6em;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.hgalery {
+ color: darkcyan;
+ display: flex;
+ justify-content: center;
+ margin-top: 15em;
+}
+.secondsection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer{
+  border-top:1.8em solid darkcyan
