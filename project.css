@@ -1,4 +1,4 @@
-@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 body {
   padding: 0px;
   margin: 0px;
@@ -81,24 +81,25 @@ header {
   padding: 3em;
   font-size: 20px;
   line-height: 1.5;
+  color: darkcyan;
 }
 
 .ekstri {
-display: block;
+  display: block;
 }
-
 
 .frontgalery {
   display: flex;
 }
 
-.snimki{
+.snimki {
   width: 3em;
   width: 30em;
   height: 15em;
- border: 0.5em solid rgb(235, 201, 52);
+  border: 0.2em solid black;
+  padding: 0.4em;
 }
-.stars{
+.stars {
   padding-left: 5em;
   padding-bottom: 1em;
   color: black;
@@ -107,7 +108,7 @@ display: block;
   display: flex;
   justify-content: space-around;
 }
-.listhotel{
+.listhotel {
   padding-left: 9em;
 }
 .hotoffer {
@@ -116,58 +117,59 @@ display: block;
 .footer {
   display: flex;
   justify-content: space-around;
+  color: darkcyan;
 }
-.uslugi{
+.uslugi {
   display: block;
   list-style: none;
   line-height: 1.5;
   font-size: 20px;
 }
-.titleuslugi{
-    font-size: 1.2em;
-    margin-left: 4em;
-    margin-bottom: 1em;
-
+.titleuslugi {
+  font-size: 1.2em;
+  margin-left: 4em;
+  margin-bottom: 1em;
 }
-.mreji{
-  font-size:1.2em;
+.mreji {
+  font-size: 1.2em;
 }
 .contacts {
   display: block;
-    list-style-type: none;
-    line-height: 1.5;
-    font-size: 1.2em;
-    margin-top: 4em;
-
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 1.2em;
+  margin-top: 4em;
 }
 .map {
-    width: 32em;
-    height: 21em;
-    border: 5px solid darkcyan;
-  
+  width: 32em;
+  height: 21em;
+  border: 5px solid darkcyan;
 }
 .address {
   font-size: 1.3em;
-  color:darkcyan;
+  color: darkcyan;
   font-weight: bold;
-      margin-right: 6em;
-    margin-top: 3em;
-    line-height: 1.5;
+  margin-right: 6em;
+  margin-top: 3em;
+  line-height: 1.5;
 }
 .cardcontainer {
+  margin-top: 335px;
   display: flex;
   justify-content: space-around;
   padding-bottom: 5em;
+}
+.contact {
+  margin-top: 3em;
+  padding-top: 13em;
+  text-align: center;
+  padding-bottom: 2em;
+  color: darkcyan;
+}
+.cont {
+  
+}
 
-}
-.contact{
-     margin-top: 3em;
-    padding-top: 13em;
-    text-align: center;
-    padding-bottom: 2em;
-    color: darkcyan;
-}
-    
 .pichotel {
   width: 28em;
   height: 15em;
@@ -182,16 +184,13 @@ display: block;
   margin-top: 3em;
 }
 .hgalery {
- color: darkcyan;
- display: flex;
- justify-content: center;
- margin-top: 15em;
+  color: darkcyan;
+  display: flex;
+  justify-content: center;
+  margin-top: 15em;
 }
 .secondsection {
   display: flex;
   justify-content: space-around;
 }
 
-.footer{
-  border-top:1.8em solid darkcyan;
-}
