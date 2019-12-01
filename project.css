@@ -213,3 +213,6 @@ color: darkcyan;
   justify-content: space-around;
 }
 
+.footer{
+  border-top: 3em solid darkcyan;
+}
