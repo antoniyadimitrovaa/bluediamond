@@ -19,10 +19,10 @@ body {
 .navigation > li {
   text-decoration: none;
   list-style-type: none;
-  font-size: 1.3em;
   padding-right: 3em;
-  padding-top: 1.2em;
+  padding-top: 2.2em;
   color: darkcyan;
+  font-size: 1.4em;
 }
 
 .sea {
@@ -40,7 +40,7 @@ header {
   width: 5em;
   height: 6em;
   margin-top: 2em;
-  margin-right: 2em;
+  margin-right: 3em;
 }
 
 nav {
@@ -56,12 +56,14 @@ ul {
   height: 1.2em;
   margin-top: 8.8em;
   margin-left: 1em;
+  border: 0.09em solid black;
 }
 .flag {
-  width: 1.5em;
-  height: 1.5em;
-  margin-left: 9em;
-  margin-top: 8.5em;
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 2em;
+  margin-top: 8.8em;
+  border: 0.09em solid black;
 }
 
 header {
@@ -107,6 +109,7 @@ header {
 .frontgalery {
   display: flex;
   justify-content: space-around;
+  border-top: 3em solid darkcyan;
 }
 .listhotel {
   padding-left: 9em;
@@ -134,7 +137,7 @@ header {
 
 .socialnimreji{
 list-style-type: none;
-font-size: 3em;
+font-size: 3.5em;
 color: darkcyan;
 }
 .instagram{
@@ -213,6 +216,3 @@ color: darkcyan;
   justify-content: space-around;
 }
 
-.footer{
-  border-top: 3em solid darkcyan;
-}
