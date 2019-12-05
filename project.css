@@ -65,25 +65,22 @@ ul {
   margin-top: 8.8em;
   border: 0.09em solid black;
 }
-
 header {
   width: 100%;
   background-color: white;
 }
-
 .name2 {
   color: darkcyan;
   text-align: center;
   padding: 14em;
 }
-
 .container {
-  margin-top: -317px;
+  margin-top: 15em
   display: flex;
   padding: 3em;
   font-size: 20px;
   line-height: 1.5;
-  color: darkcyan;
+  color:darkcyan;
 }
 
 .ekstri {
@@ -187,9 +184,6 @@ color: darkcyan;
   text-align: center;
   padding-bottom: 2em;
   color: darkcyan;
-}
-.cont {
-  
 }
 
 .pichotel {

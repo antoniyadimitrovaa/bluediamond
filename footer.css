@@ -1,0 +1,74 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 3em solid darkcyan;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin-top: -317px;
+  display: flex;
+  padding: 3em;
+  font-size: 20px;
+  line-height: 1.5;
+  color: darkcyan;
+}
+
+.ekstri {
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: darkcyan;
+}
+.uslugi {
+  display: block;
+  list-style-type: square;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.titleuslugi {
+  font-size: 1.5em;
+  margin-left: 4em;
+  margin-bottom: 1.2em;
+  justify-content: center;
+}
+
+.socialnimreji{
+list-style-type: none;
+font-size: 3.5em;
+color: darkcyan;
+}
+.instagram{
+  padding-left: 1em;
+}
+.linkedin{
+  padding-left: 1em;
+}
+.mreji {
+  font-size: 1.5em;
+}
+.kntakti{
+  font-size: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+.contacts {
+  display: block;
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 1.2em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+
+
+

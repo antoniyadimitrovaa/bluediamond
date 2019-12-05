@@ -1,0 +1,50 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 3em solid darkcyan;
+}
+
+.container {
+  margin-top: 2em;
+  display: flex;
+  padding: 3em;
+  font-size: 20px;
+  line-height: 1.5;
+  color: darkcyan;
+}
+
+.ekstri {
+  display: block;
+}
+.snimki {
+  width: 3em;
+  width: 30em;
+  height: 15em;
+  border: 0.2em solid black;
+  padding: 0.4em;
+}
+.frontgalery {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2em solid darkcyan;
+  border-bottom: 2em solid darkcyan
+}
+.listhotel {
+  padding-left: 9em;
+}
+.hotoffer {
+  padding-left: 9em;
+}
+.cardcontainer {
+  margin-top: 335px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5em;
+  margin-top: 13em;
+}
+.name2 {
+  color: darkcyan;
+  text-align: center;
+  margin-top: 16em;
+}
