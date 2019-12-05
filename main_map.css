@@ -1,0 +1,36 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 3em solid darkcyan;
+}
+.map {
+  width: 32em;
+  height: 21em;
+  border: 5px solid darkcyan;
+}
+.address {
+  font-size: 1.3em;
+  color: darkcyan;
+  font-weight: bold;
+  margin-right: 6em;
+  margin-top: 3em;
+  line-height: 1.5;
+}
+.cardcontainer {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5em;
+  border-bottom: 2em solid darkcyan;
+}
+.contact {
+  margin-top: 3em;
+  padding-top: 18em;
+  text-align: center;
+  padding-bottom: 2em;
+  color: darkcyan;
+}
+
+
+

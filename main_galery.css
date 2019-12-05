@@ -1,0 +1,31 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 3em solid darkcyan;
+}
+
+.pichotel {
+  width: 28em;
+  height: 15em;
+  border: 3px solid black;
+  padding: 0.6em;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.hgalery {
+  color: darkcyan;
+  display: flex;
+  justify-content: center;
+  margin-top: 15em;
+}
+.secondsection {
+  display: flex;
+  justify-content: space-around;
+}
+

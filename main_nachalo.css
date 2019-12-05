@@ -4,7 +4,6 @@ body {
   margin: 0px;
   border: 3em solid darkcyan;
 }
-
 .container {
   margin-top: 2em;
   display: flex;
@@ -13,7 +12,6 @@ body {
   line-height: 1.5;
   color: darkcyan;
 }
-
 .ekstri {
   display: block;
 }
