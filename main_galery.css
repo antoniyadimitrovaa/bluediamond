@@ -12,6 +12,8 @@ body {
   padding: 0.6em;
 }
 
+
+
 .firstsection {
   display: flex;
   justify-content: space-around;
@@ -27,5 +29,10 @@ body {
 .secondsection {
   display: flex;
   justify-content: space-around;
+ 
 }
 
+.pichotel:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
