@@ -10,14 +10,14 @@ ul {
   justify-content: space-between;
 }
 
-.container {
+/* .container {
   margin-top: -317px;
   display: flex;
   padding: 3em;
   font-size: 20px;
   line-height: 1.5;
   color: darkcyan;
-}
+} */
 
 .ekstri {
   display: block;
@@ -27,6 +27,7 @@ ul {
   display: flex;
   justify-content: space-around;
   color: darkcyan;
+  border-top: 2.5em solid darkcyan
 }
 .uslugi {
   display: block;
