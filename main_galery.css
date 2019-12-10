@@ -13,7 +13,6 @@ body {
 }
 
 
-
 .firstsection {
   display: flex;
   justify-content: space-around;
@@ -27,9 +26,8 @@ body {
   margin-top: 15em;
 }
 .secondsection {
-  display: flex;
-  justify-content: space-around;
- 
+ display: flex;
+ justify-content: space-around;
 }
 
 .pichotel:hover {
