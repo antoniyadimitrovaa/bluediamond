@@ -1,19 +1,20 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
   padding: 0px;
   margin: 0px;
   border: 3em solid darkcyan;
 }
 .container {
-      margin-top: 2em;
-    display: flex;
-    padding: 2em;
-    font-size: 20px;
-    line-height: 1.5;
-    color: darkcyan;
+  margin-top: 2em;
+  display: flex;
+  padding: 2em;
+  font-size: 20px;
+  line-height: 1.5;
+  color: darkcyan;
 }
 .ekstri {
   display: block;
+  width: max-content;
 }
 .snimki {
   width: 29em;
@@ -21,21 +22,21 @@ body {
   border: 0.2em solid black;
   padding: 0.4em;
 }
-.frontgalery-grid{
+.frontgalery-grid {
   display: grid;
   grid-gap: 1em;
   grid-template-columns: auto auto auto;
 }
 .listhotel {
- padding-left: 10em;
-
+  padding-left: 10em;
 }
 .all {
   width: 136em;
 }
 .hotoffer {
-    padding-left: 19em;
-    padding-right: 5em;
+  padding-left: 14em;
+  padding-right: 5em;
+  width: 100%;
 }
 .cardcontainer {
   margin-top: 335px;
@@ -48,4 +49,13 @@ body {
   color: darkcyan;
   text-align: center;
   margin-top: 16em;
+}
+.offers {
+  color: blue;
+  animation: blink 2s steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    color: red;
+  }
 }
