@@ -7,11 +7,14 @@ body {
   a {
     text-decoration: none;
   }
+
+
   ul {
     display: flex;
     justify-content: space-between;
+ 
   }
-
+  
   header {
     height: 10em;
     width: 100%;
@@ -27,7 +30,8 @@ body {
     nav {
       display: flex;
       justify-content: space-between;
-
+      
+    
       .name {
         color: blue;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -40,14 +44,24 @@ body {
         height: 5em;
       }
 
-      .navigation > li {
+      .navigation {
+        li {
         text-decoration: none;
         list-style-type: none;
         padding-right: 3em;
         padding-top: 2.2em;
         color: darkcyan;
         font-size: 1.4em;
+        &:hover {
+          color: chartreuse;
+        }
+        a:hover{
+          color: greenyellow;
+        }
+        }
       }
+        
+    
 
       .sun {
         width: 5em;
@@ -131,3 +145,4 @@ body {
     }
   }
 }
+

@@ -37,13 +37,19 @@ body header nav .diamond {
   padding-left: 5em;
   height: 5em;
 }
-body header nav .navigation > li {
+body header nav .navigation li {
   text-decoration: none;
   list-style-type: none;
   padding-right: 3em;
   padding-top: 2.2em;
   color: darkcyan;
   font-size: 1.4em;
+}
+body header nav .navigation li:hover {
+  color: chartreuse;
+}
+body header nav .navigation li a:hover {
+  color: greenyellow;
 }
 body header nav .sun {
   width: 5em;
