@@ -1,14 +1,18 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
+  $base-color:darkcyan;
+  $blue:blue;
+  $blck:black;
+
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
   margin: 0px;
-  border: 3em solid darkcyan;
+  border: 3em solid $base-color;
   a {
     text-decoration: none;
   }
 
-
+  
   ul {
     display: flex;
     justify-content: space-between;
@@ -23,8 +27,8 @@ body {
     .sea {
       width: 100%;
       height: 18em;
-      border-top: 0.3em solid darkcyan;
-      border-bottom: 0.3em solid darkcyan;
+      border-top: 0.3em solid $base-color;
+      border-bottom: 0.3em solid $base-color;
     }
 
     nav {
@@ -33,7 +37,7 @@ body {
       
     
       .name {
-        color: blue;
+        color: $blue;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         padding-left: 2em;
       }
@@ -50,13 +54,14 @@ body {
         list-style-type: none;
         padding-right: 3em;
         padding-top: 2.2em;
-        color: darkcyan;
+        color: $base-color;
         font-size: 1.4em;
         &:hover {
-          color: chartreuse;
+          color: $blue;
+          cursor: pointer;
         }
         a:hover{
-          color: greenyellow;
+         color: $blue;
         }
         }
       }
@@ -74,19 +79,19 @@ body {
         height: 1.2em;
         margin-top: 8.8em;
         margin-left: 1em;
-        border: 0.09em solid black;
+        border: 0.09em solid $blck;
       }
       .flag {
         width: 1.2em;
         height: 1.2em;
         margin-left: 2em;
         margin-top: 8.8em;
-        border: 0.09em solid black;
+        border: 0.09em solid $blck;
       }
       .stars {
         padding-left: 5em;
         padding-bottom: 1em;
-        color: black;
+        color: $blck;
       }
     }
   }
@@ -98,7 +103,7 @@ body {
   .footer {
     display: flex;
     justify-content: space-around;
-    color: darkcyan;
+    color: $base-color;
     border-top: 2.5em solid darkcyan;
 
     .uslugi {
@@ -117,7 +122,7 @@ body {
     .socialnimreji {
       list-style-type: none;
       font-size: 3.5em;
-      color: darkcyan;
+      color: $base-color;
     }
 
     .instagram {

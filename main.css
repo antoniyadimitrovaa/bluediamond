@@ -46,10 +46,11 @@ body header nav .navigation li {
   font-size: 1.4em;
 }
 body header nav .navigation li:hover {
-  color: chartreuse;
+  color: blue;
+  cursor: pointer;
 }
 body header nav .navigation li a:hover {
-  color: greenyellow;
+  color: blue;
 }
 body header nav .sun {
   width: 5em;
